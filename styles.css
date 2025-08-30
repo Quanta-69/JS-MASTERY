@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+*{
+    box-sizing: border-box;
+    transition: .3s all;
+    font-weight: 500;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+}
+::selection{
+    background: purple;
+    color: white;
+}
